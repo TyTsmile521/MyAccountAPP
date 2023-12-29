@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b9666ae-f19a-4ac9-ada4-bc15362431d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/StartUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/controller/AccountPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/controller/BillPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/controller/ChartPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/controller/OverviewPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/controller/SuccessAccountPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/controller/SuccessChangePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/controller/WelcomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/controller/WrongDatePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/controller/WrongMoneyPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/controller/WrongSelectPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/databases/DAO/RecordDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/databases/entity/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/db/aaa.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/lib/sqlite-jdbc-3.20.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/util/openNewWindowUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tytsmile/miniaccount/util/tipsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tytsmile/miniaccount/view/AccountPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tytsmile/miniaccount/view/BillPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tytsmile/miniaccount/view/ChartPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tytsmile/miniaccount/view/OverviewPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tytsmile/miniaccount/view/SuccessAccountPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tytsmile/miniaccount/view/SuccessChangePage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tytsmile/miniaccount/view/Welcome.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tytsmile/miniaccount/view/WrongDatePage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tytsmile/miniaccount/view/WrongMoneyPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/tytsmile/miniaccount/view/WrongSelectPage.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2aBznktWOyL8GIo0FPsk6QD3Rpk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/代码&项目/大二上/Java语言程序设计/SmallAccount-master"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\代码&amp;项目\大二上\Java语言程序设计\MINIAccount\src\main\resources\com\tytsmile\miniaccount\view" />
+      <recent name="E:\代码&amp;项目\大二上\Java语言程序设计\MINIAccount\src\main\resources\com\tytsmile\miniaccount" />
+      <recent name="E:\代码&amp;项目\大二上\Java语言程序设计\MINIAccount\src\main\java\com\tytsmile\miniaccount" />
+      <recent name="E:\代码&amp;项目\大二上\Java语言程序设计\MINIAccount" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\代码&amp;项目\大二上\Java语言程序设计\MINIAccount\src\main\java\com\tytsmile\miniaccount" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tytsmile.miniaccount.controller" />
+      <recent name="com.tytsmile.miniaccount" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="StartUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tytsmile.miniaccount.StartUp" />
+      <module name="MINIAccount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tytsmile.miniaccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StartUp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b9666ae-f19a-4ac9-ada4-bc15362431d8" name="Changes" comment="" />
+      <created>1703806929958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703806929958</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="494.0" prefWidth="800.0" style="-fx-background-color: #e0e5df;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tytsmile.miniaccount.controller.WelcomeController">
+   <children>
+      <Button layoutX="293.0" layoutY="305.0" mnemonicParsing="false" onAction="#dologin" prefHeight="93.0" prefWidth="215.0" style="-fx-background-color: #b5c4b1;" text="START">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="138.0" layoutY="99.0" prefHeight="124.0" prefWidth="525.0" text="Welcome to MINI记账" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

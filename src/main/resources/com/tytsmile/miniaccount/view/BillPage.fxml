@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="494.0" prefWidth="800.0" style="-fx-background-color: #e0e5df;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tytsmile.miniaccount.controller.BillPageController">
+   <children>
+      <GridPane prefHeight="75.0" prefWidth="800.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#turnToOverview" prefHeight="147.0" prefWidth="200.0" style="-fx-background-color: #b5c4b1;" text="本月一览">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#turnToAccount" prefHeight="273.0" prefWidth="350.0" style="-fx-background-color: #b5c4b1;" text="记一笔" GridPane.columnIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#turnToBill" prefHeight="273.0" prefWidth="350.0" style="-fx-background-color: #96a48b;" text="账单" GridPane.columnIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#turnToChart" prefHeight="273.0" prefWidth="350.0" style="-fx-background-color: #b5c4b1;" text="本月报表" GridPane.columnIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <TableView fx:id="recordTableView" layoutX="73.0" layoutY="108.0" prefHeight="278.0" prefWidth="654.0" style="-fx-background-color: #b5c4b1;" AnchorPane.bottomAnchor="108.0" AnchorPane.leftAnchor="73.0" AnchorPane.rightAnchor="73.0" AnchorPane.topAnchor="108.0">
+        <columns>
+            <TableColumn fx:id="idColumn" prefWidth="54.333343505859375" text="序号">
+               <style>
+                  -fx-alignment: CENTER;
+               </style>
+            </TableColumn>
+            <TableColumn fx:id="incomeColumn" prefWidth="58.0" text="收支">
+               <style>
+                  -fx-alignment: CENTER;
+               </style>
+            </TableColumn>
+            <TableColumn fx:id="moneyColumn" prefWidth="133.00001525878906" text="金额（元）">
+               <style>
+                  -fx-alignment: CENTER-RIGHT;
+               </style>
+            </TableColumn>
+            <TableColumn fx:id="classifyColumn" prefWidth="133.66665649414062" text="分类">
+               <style>
+                  -fx-alignment: CENTER;
+               </style>
+            </TableColumn>
+            <TableColumn fx:id="commentColumn" prefWidth="143.33328247070312" text="备注">
+               <style>
+                  -fx-alignment: CENTER;
+               </style>
+            </TableColumn>
+            <TableColumn fx:id="dateColumn" prefWidth="132.66668701171875" text="日期">
+               <style>
+                  -fx-alignment: CENTER;
+               </style>
+            </TableColumn>
+        </columns>
+      </TableView>
+      <Button layoutX="118.0" layoutY="418.0" mnemonicParsing="false" onAction="#add1" prefHeight="48.0" prefWidth="100.0" style="-fx-background-color: #b5c4b1;" text="新增" AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="600.0" AnchorPane.topAnchor="418.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="350.0" layoutY="418.0" mnemonicParsing="false" onAction="#change1" prefHeight="48.0" prefWidth="100.0" style="-fx-background-color: #b5c4b1;" text="修改" AnchorPane.bottomAnchor="28.0" AnchorPane.topAnchor="418.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="603.0" layoutY="418.0" mnemonicParsing="false" onAction="#delete1" prefHeight="48.0" prefWidth="100.0" style="-fx-background-color: #b5c4b1;" text="删除" AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="600.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="418.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

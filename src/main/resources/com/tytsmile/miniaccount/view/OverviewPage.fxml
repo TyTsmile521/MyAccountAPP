@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="494.0" prefWidth="800.0" style="-fx-background-color: #e0e5df;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tytsmile.miniaccount.controller.OverviewPageController">
+   <children>
+      <GridPane prefHeight="75.0" prefWidth="800.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#turnToOverview" prefHeight="169.0" prefWidth="200.0" style="-fx-background-color: #96a48b;" text="本月一览">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#turnToAccount" prefHeight="119.0" prefWidth="200.0" style="-fx-background-color: #b5c4b1;" text="记一笔" GridPane.columnIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#turnToBill" prefHeight="108.0" prefWidth="200.0" style="-fx-background-color: #b5c4b1;" text="账单" GridPane.columnIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#turnToChart" prefHeight="105.0" prefWidth="200.0" style="-fx-background-color: #b5c4b1;" text="本月报表" GridPane.columnIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <Label alignment="CENTER_RIGHT" layoutX="32.0" layoutY="124.0" text="本月支出" AnchorPane.rightAnchor="624.0" AnchorPane.topAnchor="130.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="32.0" layoutY="204.0" text="本月收入" AnchorPane.rightAnchor="624.0" AnchorPane.topAnchor="210.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="sumClearOutWord" alignment="CENTER_RIGHT" layoutX="68.0" layoutY="284.0" text="净支出" AnchorPane.rightAnchor="624.0" AnchorPane.topAnchor="290.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="32.0" layoutY="364.0" text="每日支出" AnchorPane.rightAnchor="624.0" AnchorPane.topAnchor="370.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="sumOut" layoutX="197.0" layoutY="131.0" prefHeight="32.0" prefWidth="0.0" text="1" AnchorPane.leftAnchor="197.0" AnchorPane.topAnchor="130.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="sumIn" layoutX="197.0" layoutY="214.0" prefHeight="32.0" prefWidth="0.0" text="2"  AnchorPane.leftAnchor="197.0" AnchorPane.topAnchor="210.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="sumClearOut" layoutX="197.0" layoutY="289.0" prefHeight="20.0" prefWidth="0.0" text="3"  AnchorPane.leftAnchor="197.0" AnchorPane.topAnchor="290.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="everydayOut" layoutX="197.0" layoutY="364.0" prefHeight="17.0" prefWidth="0.0" text="4"  AnchorPane.leftAnchor="197.0" AnchorPane.topAnchor="370.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="monthlyExpenseBar" layoutX="483.0" layoutY="130.0" prefHeight="32.0" prefWidth="286.0" style="-fx-background-color: #965454;" />
+      <AnchorPane fx:id="monthlyIncomeBar" layoutX="483.0" layoutY="210.0" prefHeight="32.0" prefWidth="286.0" style="-fx-background-color: #7b8b6f;" />
+      <AnchorPane fx:id="monthlyClearExpenseBar" layoutX="483.0" layoutY="290.0" prefHeight="32.0" prefWidth="286.0" />
+      <Label fx:id="tip" alignment="CENTER" layoutX="13.0" layoutY="448.0" prefHeight="32.0" prefWidth="773.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

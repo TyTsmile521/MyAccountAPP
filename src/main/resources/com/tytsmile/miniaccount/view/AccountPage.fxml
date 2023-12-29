@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="494.0" prefWidth="800.0" style="-fx-background-color: #e0e5df;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tytsmile.miniaccount.controller.AccountPageController">
+   <children>
+      <GridPane prefHeight="75.0" prefWidth="800.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#turnToOverview" prefHeight="145.0" prefWidth="200.0" style="-fx-background-color: #b5c4b1;" text="本月一览">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#turnToBill" prefHeight="273.0" prefWidth="350.0" style="-fx-background-color: #b5c4b1;" text="账单" GridPane.columnIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#turnToChart" prefHeight="155.0" prefWidth="368.0" style="-fx-background-color: #b5c4b1;" text="本月报表" GridPane.columnIndex="3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#turnToAccount" prefHeight="273.0" prefWidth="350.0" style="-fx-background-color: #96a48b;" text="记一笔" GridPane.columnIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <TextField fx:id="money" layoutX="176.0" layoutY="131.0" prefHeight="48.0" prefWidth="350.0" AnchorPane.topAnchor="131.0" />
+      <Label layoutX="89.0" layoutY="131.0" prefHeight="49.0" prefWidth="48.0" text="金额" AnchorPane.topAnchor="131.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="214.0" text="日期" AnchorPane.topAnchor="214.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="364.0" text="备注" AnchorPane.topAnchor="364.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="comment" layoutX="176.0" layoutY="356.0" prefHeight="48.0" prefWidth="350.0" AnchorPane.topAnchor="356.0" />
+      <DatePicker fx:id="date" layoutX="176.0" layoutY="206.0" prefHeight="48.0" prefWidth="350.0" AnchorPane.topAnchor="206.0" />
+      <Label layoutX="89.0" layoutY="289.0" text="分类" AnchorPane.topAnchor="289.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="goin" layoutX="598.0" layoutY="356.0" mnemonicParsing="false" onAction="#accountIn" prefHeight="48.0" prefWidth="100.0" style="-fx-background-color: #b5c4b1;" text="提交">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="classify" layoutX="176.0" layoutY="281.0" prefHeight="48.0" prefWidth="350.0" AnchorPane.topAnchor="281.0" />
+      <Label layoutX="526.0" layoutY="139.0" text="（元）" AnchorPane.topAnchor="139.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="incomeflag" layoutX="598.0" layoutY="140.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="100.0" text="收入">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>
